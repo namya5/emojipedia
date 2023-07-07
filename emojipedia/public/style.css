@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Montserrat&display=swap');
+
+body
+{
+    background: #f8bfd0;
+    font-family: 'Montserrat', sans-serif;;
+}
+.heading h1
+{
+    font-family: 'Erica One', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #f2f2f2;
+    background: #ec2824;
+    width:max-content;
+    padding:10px 25px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+}
+
+.dict
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto 20px;
+
+}
+.card
+{
+    background: #fff;
+    width:400px;
+    padding:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 100ms ease-in-out;
+}
+
+.card span
+{
+   font-size:60px;
+}
+
+.card h3
+{
+    font-size:30px;
+    margin-top: 15px;
+    color: #ec2824;
+}
+
+.card 
+p{
+    color: #555;
+}
